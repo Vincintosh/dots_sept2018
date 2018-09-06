@@ -1,0 +1,35 @@
+XTerm*termName: xterm-256color
+XTerm*foreground: white
+XTerm*background: black
+XTerm*locale: true
+
+
+!URXVT
+
+! Needed for fake transparency if you don't have compton
+!URxvt*transparent: true
+!URxvt*shading: 25
+URxvt*buffered: true
+URxvt*termName: rxvt-256color
+URxvt*letterSpace: -1
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c900
+URxvt*scrollBar: false
+URxvt*urlLauncher: firefox
+URxvt*foreground: #eeeeee
+URxvt*background: #000000
+URxvt*utf8: true
+URxvt*locale: true
+URxvt*font: xft:inconsolata:size=13:antialias=true
+URxvt*cursorBlink: 1
+! Extensions
+URxvt*perl-ext-common: default,url-select,keyboard-select,resize-font
+URxvt*url-select.launcher: firefox
+URxvt*url-select.underline: true
+URxvt.matcher.button:	1
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt.resize-font.smaller:	C-j
+URxvt.resize-font.bigger:	C-k
+URxvt.resize-font.reset:	C-0
