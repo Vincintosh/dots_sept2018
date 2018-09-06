@@ -1,0 +1,287 @@
+# i3 config file (v4)
+#
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+
+set $mod Mod4
+
+# Colors
+set $bc #c3ff70
+set $borc #cecece
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block.
+font pango:Roboto 10
+
+# Notifications
+exec --no-startup-id twmnd
+
+# Restore screen layout: this script will also set wallpaper with feh and run polybar
+# We must do this with the script itself because it needs to sleep .1
+# before being able to detect the connected monitors and then let feh and polybar
+# adapt to the screen layout. At the end the script runs a notification command
+# with a 'welcome back' message and a startup sound
+exec ~/.screenlayout/screenlayout.sh
+
+# Disable X bell
+exec --no-startup-id xset -b
+
+# Autostart
+exec --no-startup-id compton --config ~/.config/compton.conf -b
+exec --no-startup-id redshift
+
+# Status workspace: using "i3-save-tree" and "i3-msg append_layout" in a script
+#exec --no-startup-id ~/.config/scripts/i3_restore.sh
+
+#Screenshot
+bindsym Print exec "scrot && aplay ~/.config/screen.wav"
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# open a terminal
+bindsym $mod+Return exec urxvt
+
+# run firefox
+bindsym $mod+x exec firefox
+
+# run nautilus
+bindsym $mod+n exec nautilus
+
+# run rofi default
+bindsym $mod+d exec rofi -show drun -hide-scrollbar -lines 5 -eh 2 -width 40 -location 8 -xoffset 150 -yoffset 70 -padding 50 -font "RobotoMono Nerd Font 14"
+
+# run rofi favs
+bindsym $mod+Shift+d exec "/home/vincintosh/.config/scripts/rofifav.sh"
+
+# run rofi close
+bindsym $mod+Escape exec "/home/vincintosh/.config/scripts/rofiexit.sh"
+
+# run rofi window
+bindsym $mod+Tab exec rofi -show window -hide-scrollbar -lines 5 -eh 2 -width 40 -location 8 -xoffset 150 -yoffset 70 -padding 50 -font "RobotoMono Nerd Font 14"
+
+
+# kill focused window
+bindsym $mod+q kill
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+b split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split). I don't use this function.
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+#bindsym $mod+space focus mode_toggle
+
+# Move to scratchpad
+bindsym $mod+shift+x move scratchpad
+
+# Show scratchpad
+bindsym $mod+space scratchpad show
+
+# focus the parent container
+#bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+# Workspaces (and display assignment)
+workspace 1 output HDMI-1
+workspace 2 output HDMI-1
+workspace 3 output HDMI-1
+workspace 4 output HDMI-1
+workspace 5 output HDMI-1
+workspace 6 output HDMI-1
+workspace 7 output HDMI-1
+workspace 8 output HDMI-1
+workspace 9 output eDP-1
+workspace 10 output eDP-1
+
+# switch to workspace
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Up resize grow height 10 px or 10 ppt
+        bindsym Down resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+#bar {
+ #       status_command i3status
+##}
+
+
+# Popup and dialogs handling
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floading enable
+
+# Gnome-Calculator handling
+for_window [title="Calcolatrice"] floating enable
+
+
+# Window borders
+new_window none
+new_float none
+client.focused $bc $bc $bc $borc
+# Gaps
+gaps inner 10
+gaps outer 5
+bindsym $mod+g mode "$mode_gaps"
+
+# Gaps settings mode
+set $mode_gaps Gaps: (e) esterni, (i) interni
+set $mode_gaps_e Gaps Esterni: +|-|0
+set $mode_gaps_i Gaps Interni: +|-|0
+
+mode "$mode_gaps" {
+	bindsym e	mode "$mode_gaps_e"
+	bindsym i 	mode "$mode_gaps_i"
+	bindsym Return	mode "default"
+	bindsym Escape	mode "default"
+}
+
+mode "$mode_gaps_e" {
+	bindsym plus	gaps outer all plus 5
+	bindsym minus	gaps outer all minus 5
+	bindsym 0	gaps outer all set 5
+	bindsym Return	mode "default"
+	bindsym Escape	mode "default"
+}
+
+mode "$mode_gaps_i" {
+	bindsym plus	gaps inner all plus 5
+	bindsym minus	gaps inner all minus 5
+	bindsym 0	gaps inner all set 10
+	bindsym Return	mode "default"
+	bindsym Escape	mode "default"
+}
+
+# Set/Unset zero Gaps on the fly should you need extra screen space
+bindsym $mod+Shift+G gaps outer all set 0; gaps inner all set 0
+bindsym $mod+Ctrl+G gaps outer all set 5; gaps inner all set 10
+
+
+# Volume Keys
+bindsym XF86AudioRaiseVolume exec "pamixer -i 5 && aplay /home/vincintosh/.config/blop.wav"
+bindsym $mod+F3 exec "pamixer -i 5 && aplay /home/vincintosh/.config/blop.wav"
+bindsym XF86AudioLowerVolume exec "pamixer -d 5 && aplay /home/vincintosh/.config/blop.wav"
+bindsym $mod+F2 exec "pamixer -d 5 && aplay /home/vincintosh/.config/blop.wav"
+bindsym XF86AudioMute exec "pamixer -t && aplay /home/vincintosh/.config/blop.wav"
+bindsym $mod+F1 exec "pamixer -t && aplay /home/vincintosh/.config/blop.wav"
+
+# Media Keys
+bindsym $mod+m exec "urxvt -e ncmpcpp"
+bindsym $mod+Shift+m exec "urxvt -e mpd"; exec "urxvt -e ncmpcpp"
+bindsym $mod+Shift+n exec "urxvt -e ncmpcpp"
+bindsym F11 exec "/home/vincintosh/.config/scripts/mpdplay.sh"
+bindsym F9 exec "mpc stop && twmnc --sc /home/vincintosh/.config/sil.wav -d 3000 --bg lightyellow -t 'MPD' -c 'Stop '"
+bindsym F10 exec "mpc prev"
+bindsym F12 exec "mpc next"
+
+
+# Restart polybar
+bindsym $mod+Shift+p exec --no-startup-id "killall polybar"
+bindsym $mod+Ctrl+p exec --no-startup-id "polybar top"
+
+# Ask for battery remaining time
+bindsym $mod+Shift+b exec "/home/vincintosh/.config/scripts/bat.sh"
+
+# Empty the trash
+bindsym $mod+Shift+BackSpace exec "/home/vincintosh/.config/scripts/emptytrash.sh"
+
+# Update the system
+bindsym $mod+Shift+u exec "urxvt -e sudo pacman -Syu"
+
+# Randomly change wallpaper
+bindsym $mod+Shift+w exec --no-startup-id feh --randomize --bg-fill ~/Immagini/walls
+
+# Monitor rescue: using this instead of  tinkering with udev. When an external display is disconnected and the laptop display
+# is inactive, use this script to restore the laptop display active. It even restarts polybar
+bindsym $mod+Shift+Print exec --no-startup-id ~/.screenlayout/restore.sh
+
+# Manually lock the screen (no suspend/hibernate)
+bindsym $mod+Pause exec --no-startup-id i3lock-fancy

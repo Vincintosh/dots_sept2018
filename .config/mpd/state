@@ -1,0 +1,498 @@
+sw_volume: 100
+audio_device_state:1:MPD pulse
+audio_device_state:1:MPD FIFO
+state: stop
+current: 287
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Anni 2000/All I Ever Wanted.mp3
+1:Anni 2000/Bla Bla Bla.mp3
+2:Anni 2000/Crazy Frog.mp3
+3:Anni 2000/Dragostea Din Tei.mp3
+4:Anni 2000/Geordie.mp3
+5:Anni 2000/Giulia (Remix).mp3
+6:Anni 2000/L'Amour Toujours.mp3
+7:Anni 2000/Le Louvre.mp3
+8:Anni 2000/Mirage (La Luna).mp3
+9:Anni 2000/Obsesiòn (Remix).mp3
+10:Anni 2000/Vieni Con Me.mp3
+11:Anni 2000/Voglio Vederti Danzare.mp3
+12:Anni 2000/Get Busy.mp3
+13:Classic/Classical Chillout - Pachelbel,Mozart,Beethoven,Debussy,Janacek,Bach,Handel-hSnD30bcAS8.mp3
+14:Classic/Mozart on the Beach - Classical Music for Summer-y59_xzFKgW0.mp3
+15:Classic/Música ITALIANA instrumental.-CoyzywqGXKw.mp3
+16:Classic/Relaxing Rainy JAZZ - Amazing Cafe Piano & Saxophone Jazz Music for Studying, Sleep, Work-5VnlCW4JHR8.mp3
+17:Classic/The Best of Bach-vwp9JkaESdg.mp3
+18:Classic/The Best of Mozart-Rb0UmrCXxVA.mp3
+19:Classica/Brandenburg Concerto No. 4 in G major BWV 1049.mp3
+20:Classica/Waltz No. 2.mp3
+21:Classica/Bourrée - English Suite no. 2 - Harpischord.mp3
+22:Classica/Canon and Gigue in D Major for Three Violins and Basso Continuo.mp3
+23:Classica/Canon D (Orchestra) - 432 Hz.mp3
+24:Classica/Canon in D (choir).mp3
+25:Classica/Canon in D (London Baroque).mp3
+26:Classica/Canon in D Major.mp3
+27:Classica/Classical Music Mashup.mp3
+28:Classica/Concerto per due Violini in Re Minore BWV 1043 - Vivace.mp3
+29:Classica/Dies Irae.mp3
+30:Classica/Eine Kleine Nachtmusik.mp3
+31:Classica/Fugue in G minor BWV 578 (Dario Ronchi - Piano).mp3
+32:Classica/Fugue in G minor BWV 578 (Ed. Beurmann - Harpsichord).mp3
+33:Classica/Fugue in G minor BWV 578 (Ton Koopman - Organ).mp3
+34:Classica/Game of Thrones (Extended Theme).mp3
+35:Classica/Lacrimosa.mp3
+36:Classica/Menuet in G Major - BWV Anh 114 - Harpsichord.mp3
+37:Classica/Minuet in G Major.mp3
+38:Classica/Mozart - Variations on -Ah, vous dirai-je, maman-  KV 265 - Gerard van Reenen, harpsichord.mp3
+39:Classica/O Fortuna (Carmina Burana).mp3
+40:Classica/Piano Concerto no. 12 in A Major, Kv 414.mp3
+41:Classica/Prelude - English Suite no. 2 - Harpsichord.mp3
+42:Classica/Toccata (Harpsichord).mp3
+43:Classica/Toccata and Fugue in D minor (Eugene Ormandy Transcription Orchestra).mp3
+44:Classica/Toccata and Fugue in D Minor BWV 565 - Amy Turk, Harp.mp3
+45:Classica/Toccata and Fugue in D minor BWV 565 1.mp3
+46:Classica/Toccata and Fugue in D minor, BWV 565 - Patrick Ayrton, Harpsichord.mp3
+47:Classica/Toccata.mp3
+48:Classica/Air on a G string.mp3
+49:Classica/Sheep may safely graze.mp3
+50:Classica/Badinerie.mp3
+51:Classica/Jesu, Joy of Man's Desiring.mp3
+52:Classica/Marcha Turca.mp3
+53:Classica/Prelude to Te Deum.mp3
+54:Classica/Largo from Guitar Concerto.mp3
+55:Classica/Concerto fo Four Violins - Allegro.mp3
+56:Classica/Concerto fo Four Violins - Andante.mp3
+57:Classica/Concerto fo Four Violins - Vivace.mp3
+58:Covers/_Just Give Me A Reason_, P!nk & Nate Ruess.mp3
+59:Covers/Bring Me to Life.mp3
+60:Covers/Chandelier (Reggae Cover by Ameena).mp3
+61:Covers/Die Young (Kesha Gone Country  Wild West Cover).mp3
+62:Covers/Don't You Worry Child (Vintage 'Great Gatsby' Style Swedish House Mafia Cover).mp3
+63:Covers/Game of Thrones _Main Theme _ Opening Song_.mp3
+64:Covers/Game of Thrones - Rock _ Metal Band Cover.mp3
+65:Covers/Game of Thrones EPIC Opera Cover.mp3
+66:Covers/Game Of Thrones Theme (Amazing A'Cappella Cover).mp3
+67:Covers/Get Lucky - Irish Folk Daft Punk Cover.mp3
+68:Covers/Hotel California (A Cappella).mp3
+69:Covers/Hotel California (Metal Cover).mp3
+70:Covers/Hotel California (The Big Lebowski).mp3
+71:Covers/Hotel California.mp3
+72:Covers/My Immortal - Evanescence.mp3
+73:Covers/November Rain (Cover of Guns N' Roses).mp3
+74:Covers/Paradise - Coldplay - A Cappella Cover.mp3
+75:Covers/Royals (_Sad Clown With The Golden Voice_ Version - Lorde Cover).mp3
+76:Covers/She Wolf (Falling To Pieces) - David Guetta ft. Sia.mp3
+77:Covers/Someone Like You (Cover by Cimorelli).mp3
+78:Covers/Sweet Child O' Mine (New Orleans Style).mp3
+79:Covers/Take On Me.mp3
+80:Covers/The Truth Beneath The Rose (Cover Richard Adams).mp3
+81:Covers/Thrift Shop (Vintage  Grandpa Style  Macklemore Cover) 1.mp3
+82:Covers/Titanium - David Guetta.mp3
+83:Covers/What Is Love (Haddaway Cover).mp3
+84:Covers/Adagio.mp3
+85:Covers/Hallelujah.mp3
+86:Dance Favs/Alan Walker & David Whistle - Routine.mp3
+87:Dance Favs/Deep Down Inside.mp3
+88:Dance Favs/Highlander DJ Suona.mp3
+89:Dance Favs/Alive (Pegboard Nerds Remix).mp3
+90:Dance Favs/All My People.mp3
+91:Dance Favs/Amazing.mp3
+92:Dance Favs/Andiamo a Comandare.mp3
+93:Dance Favs/Animals.mp3
+94:Dance Favs/Are You With Me (Radio Edit).mp3
+95:Dance Favs/Back In Time (featured in _Men In Black III_).mp3
+96:Dance Favs/Baila Morena.mp3
+97:Dance Favs/Bailando.mp3
+98:Dance Favs/Caliente (Radio Edit).mp3
+99:Dance Favs/Chandelier.mp3
+100:Dance Favs/Cheerleader (Felix Jaehn Edit).mp3
+101:Dance Favs/Dance Again.mp3
+102:Dance Favs/Dangerous (feat. Sam Martin).mp3
+103:Dance Favs/Danza Kuduro (OIOIOI) (Original Ver.).mp3
+104:Dance Favs/Day by Day.mp3
+105:Dance Favs/Deep In Love.mp3
+106:Dance Favs/Deja Vu (feat. Bob Taylor).mp3
+107:Dance Favs/Ecoute.mp3
+108:Dance Favs/Feel This Moment.mp3
+109:Dance Favs/Forever Shining (Original Mix).mp3
+110:Dance Favs/Freaks (Radio Edit).mp3
+111:Dance Favs/Get It Started.mp3
+112:Dance Favs/Her World Goes On.mp3
+113:Dance Favs/How Deep Is Your Love.mp3
+114:Dance Favs/I Could Be The One.mp3
+115:Dance Favs/I'm an Albatraoz.mp3
+116:Dance Favs/Infinity 2008.mp3
+117:Dance Favs/Intoxicated.mp3
+118:Dance Favs/Limbo.mp3
+119:Dance Favs/Miracle.mp3
+120:Dance Favs/More Than Friends.mp3
+121:Dance Favs/On The Floor.mp3
+122:Dance Favs/Piensas (Dile La Verdad).mp3
+123:Dance Favs/Play Me Like A Violin.mp3
+124:Dance Favs/Prayer in C.mp3
+125:Dance Favs/Prelude (Radio Edit).mp3
+126:Dance Favs/Rain Over Me.mp3
+127:Dance Favs/Rather Be.mp3
+128:Dance Favs/Rockabye.mp3
+129:Dance Favs/Roma - Bangkok (ft. Giusy Ferreri).mp3
+130:Dance Favs/Round Table Knights.mp3
+131:Dance Favs/She Wolf (Falling to Pieces) (AMBIENT VERSION).mp3
+132:Dance Favs/Stereo Love (ft. Mia Martina).mp3
+133:Dance Favs/Story Ending (Radio Edit).mp3
+134:Dance Favs/Suavemente.mp3
+135:Dance Favs/Sun Is Up.mp3
+136:Dance Favs/Sweet Love (Original Extended Mix).mp3
+137:Dance Favs/Teach Me (Original Mix).mp3
+138:Dance Favs/Tear The Roof Up.mp3
+139:Dance Favs/Ti Amo.mp3
+140:Dance Favs/Timber ft. Ke$ha.mp3
+141:Dance Favs/Titanium.mp3
+142:Dance Favs/Toca Me (Dan Winter Radio Edit).mp3
+143:Dance Favs/Under The Influence.mp3
+144:Dance Favs/Wake Me Up.mp3
+145:Dance Favs/Everytime We Touch.mp3
+146:Dance Favs/Party Around The World (Michael Mind Project Radio Edit).mp3
+147:Dance Favs/Hey Brother.mp3
+148:Dance Favs/Hot (radio edit).mp3
+149:Dance Favs/Don't You Worry Child.mp3
+150:Dance Favs/When Love Takes Over (Ft. Kelly Rowland).mp3
+151:Dragonforce/Heroes Of Our Time.mp3
+152:Dragonforce/Through The Fire And Flames.mp3
+153:Dragonforce/Fury Of The Storm.mp3
+154:Dragonforce/Revolution deathsquad.mp3
+155:Dragonforce/Operation Ground and Pound.mp3
+156:Elvis Presley Favs/Always On My Mind.mp3
+157:Elvis Presley Favs/Blue Suede Shoes.mp3
+158:Elvis Presley Favs/Can't Help Falling in Love.mp3
+159:Elvis Presley Favs/Jailhouse Rock.mp3
+160:Elvis Presley Favs/My Love (Unchained Melody).mp3
+161:Elvis Presley Favs/Snowbird.mp3
+162:Epica Favs/Canvas of Life (Acoustic).mp3
+163:Epica Favs/Cry For The Moon.mp3
+164:Epica Favs/Feint.mp3
+165:Epica Favs/Sancta Terra.mp3
+166:Epica Favs/Sensorium.mp3
+167:Epica Favs/Solitary Ground (Alternate Version).mp3
+168:Epica Favs/Solitary Ground.mp3
+169:Epica Favs/Storm the Sorrow.mp3
+170:Epica Favs/The Phantom Agony.mp3
+171:Epica Favs/Unleashed.mp3
+172:Evanescence Favs/Imaginary (Alan Farias Remix).mp3
+173:Evanescence Favs/The Last Song I'm Wasting On You.mp3
+174:Evanescence Favs/Going Under.mp3
+175:Evanescence Favs/Sweet Sacrifice.mp3
+176:Evanescence Favs/What You Want.mp3
+177:Evanescence Favs/Whisper 2002.mp3
+178:Evanescence Favs/Bring Me To Life.mp3
+179:Evanescence Favs/Origin + Whisper.mp3
+180:Evanescence Favs/Everybody's Fool.mp3
+181:Evanescence Favs/The Change.mp3
+182:Evanescence Favs/Lithium.mp3
+183:Evanescence Favs/My Heart Is Broken.mp3
+184:Evanescence Favs/My Immortal (Album Version).mp3
+185:Evanescence Favs/Haunted.mp3
+186:Evanescence Favs/Where Will You Go.mp3
+187:Evanescence Favs/Tourniquet.mp3
+188:Evanescence Favs/Imaginary.mp3
+189:Evanescence Favs/Lacrymosa.mp3
+190:Evanescence Favs/Lost In Paradise.mp3
+191:Evanescence Favs/Anywhere.mp3
+192:Evanescence Favs/Taking Over Me.mp3
+193:Evanescence Favs/Hello.mp3
+194:Evanescence Favs/Good Enough.mp3
+195:Evanescence Favs/Listen To The Rain.mp3
+196:Evanescence Favs/My Immortal (Rock Version).mp3
+197:Evanescence Favs/Missing.mp3
+198:Evanescence Favs/Bring Me To Life (Original).mp3
+199:Free Birds/A Me Me Piace 'O Blues.mp3
+200:Free Birds/Accireme.mp3
+201:Free Birds/Don't Let Me Be Misunderstoood.mp3
+202:Free Birds/Free Bird.mp3
+203:Free Birds/Hotel California.mp3
+204:Free Birds/Jailhouse Rock.mp3
+205:Free Birds/Knocking On Heaven's Door.mp3
+206:Free Birds/More Than Words.mp3
+207:Free Birds/Sweet home Alabama.mp3
+208:Free Birds/Sweet Home Chicago.mp3
+209:Free Birds/Twist It - Shake Your Tail Feather.mp3
+210:Free Birds/Walking by Myself.mp3
+211:Free Birds/You Never Can Tell.mp3
+212:Free Birds/Snow ((Hey Oh)).mp3
+213:Free Birds/Don`t Cry (Original).mp3
+214:Italiane/Erba di Casa Mia.mp3
+215:Italiane/La Gelosia.mp3
+216:Italiane/Matti.mp3
+217:Italiane/Perdere L'Amore.mp3
+218:Italiane/Piccoli già grandi.mp3
+219:Italiane/Rose Rosse.mp3
+220:Italiane/Volevo Te.mp3
+221:Italiane/Yuppi Du.mp3
+222:Italiane/Mille giorni di te e di me.mp3
+223:Italiane/E tu....mp3
+224:Italiane/Non So Più Cosa Fare.mp3
+225:Italiane/Tutto in un abbraccio.mp3
+226:Italiane/Mai più come te.mp3
+227:Italiane/Acqua e sale.mp3
+228:Italiane/Sono un simpatico.mp3
+229:Italiane/Azzurro.mp3
+230:Italiane/Tuttti Qui.mp3
+231:Italiane/L'emozione non ha voce.mp3
+232:Italiane/Per Averti.mp3
+233:Katy Perry Favs/Dark Horse (ft. Juicy J).mp3
+234:Katy Perry Favs/I Kissed a Girl.mp3
+235:Katy Perry Favs/Last Friday Night (T.G.I.F.).mp3
+236:Katy Perry Favs/Roar.mp3
+237:Katy Perry Favs/Unconditionally.mp3
+238:Katy Perry Favs/Wide Awake.mp3
+239:Nice Tracks/Africa.mp3
+240:Nice Tracks/Cant Fight The Moonlight.mp3
+241:Nice Tracks/Miracle Of Love.mp3
+242:Nice Tracks/Happy Children.mp3
+243:Nice Tracks/Adagio in Re.mp3
+244:Nice Tracks/Aicha.mp3
+245:Nice Tracks/Back It Up.mp3
+246:Nice Tracks/Chandelier (Acoustic).mp3
+247:Nice Tracks/Cliffs Of Dover.mp3
+248:Nice Tracks/Come.mp3
+249:Nice Tracks/Desperado.mp3
+250:Nice Tracks/Europa (Earth's Cry, Heaven's Smile).mp3
+251:Nice Tracks/Hotel California (Live 1998 Hall of Fame).mp3
+252:Nice Tracks/Hotel California.mp3
+253:Nice Tracks/I Feel It Coming.mp3
+254:Nice Tracks/I Just Fall In Love Again.mp3
+255:Nice Tracks/I Would Walk 500 Miles.mp3
+256:Nice Tracks/In Cerca di Te.mp3
+257:Nice Tracks/It's Only Us.mp3
+258:Nice Tracks/It's Raining Men.mp3
+259:Nice Tracks/Just Give Me A Reason ft. Nate Ruess.mp3
+260:Nice Tracks/Knights of Cydonia.mp3
+261:Nice Tracks/La Flaca.mp3
+262:Nice Tracks/Light and Day.mp3
+263:Nice Tracks/Lost On You.mp3
+264:Nice Tracks/Madre Tortura.mp3
+265:Nice Tracks/Marvin Gaye ft. Meghan Trainor.mp3
+266:Nice Tracks/More Than Words.mp3
+267:Nice Tracks/Never Forget You.mp3
+268:Nice Tracks/November Rain.mp3
+269:Nice Tracks/Snowbird.mp3
+270:Nice Tracks/Sultans of Swing.mp3
+271:Nice Tracks/Sweet Child O' Mine.mp3
+272:Nice Tracks/Take Me Home.mp3
+273:Nice Tracks/Take Me To Church.mp3
+274:Nice Tracks/Take On Me.mp3
+275:Nice Tracks/Thunder.mp3
+276:Nice Tracks/Treasure.mp3
+277:Nice Tracks/Video Killed The Radio Star.mp3
+278:Nice Tracks/Walk Of Life.mp3
+279:Nice Tracks/We Own It.mp3
+280:Nice Tracks/What I Am.mp3
+281:Nice Tracks/Won't Get Fooled Again.mp3
+282:Nice Tracks/You Will Never Know.mp3
+283:Nice Tracks/My Time Is Now.mp3
+284:Nice Tracks/How Long.mp3
+285:Nice Tracks/Sick and Tired.mp3
+286:Nice Tracks/Heavy Hours.mp3
+287:Nice Tracks/Don`t Cry (Original).mp3
+288:Nice Tracks/Corazon Espinado.mp3
+289:Nightwish Favs/Amaranth.mp3
+290:Nightwish Favs/Escapist.mp3
+291:Nightwish Favs/Nemo.mp3
+292:Nightwish Favs/The Islander.mp3
+293:Nightwish Favs/While Your Lips Are Still Red.mp3
+294:Nightwish Favs/Wish I Had An Angel.mp3
+295:Nightwish Favs/Bye Bye Beautiful.mp3
+296:Prince Royce/Culpa al Corazón.mp3
+297:Prince Royce/Corazon Sin Cara.mp3
+298:Prince Royce/Darte un Beso.mp3
+299:Prince Royce/Incondicional.mp3
+300:Prince Royce/La Carretera.mp3
+301:Prince Royce/Moneda.mp3
+302:Prince Royce/Stand By Me.mp3
+303:Prince Royce/Te Robaré.mp3
+304:Red Hot Chili Peppers/The Adventures of Raindance Maggie.mp3
+305:Red Hot Chili Peppers/Dani California.mp3
+306:Red Hot Chili Peppers/Snow ((Hey Oh)).mp3
+307:Red Hot Chili Peppers/Tell Me Baby.mp3
+308:Red Hot Chili Peppers/Californication.mp3
+309:Red Hot Chili Peppers/Charlie.mp3
+310:Red Hot Chili Peppers/Can't Stop.mp3
+311:Red Hot Chili Peppers/By The Way.mp3
+312:Red Hot Chili Peppers/Under The Bridge.m4a
+313:Red Hot Chili Peppers/Stadium Arcadium.m4a
+314:Red Hot Chili Peppers/Hump De Bump.m4a
+315:Red Hot Chili Peppers/Road Trippin'.m4a
+316:Remixes/All My People (Original Extended Club Mix).mp3
+317:Remixes/All My People Did It Again Mashup.mp3
+318:Remixes/Bach Remix.mp3
+319:Remixes/Baila Morena (DJ Nejtrino & DJ Stranger Remix).mp3
+320:Remixes/Balada Boa (BlazE Dance Remix).mp3
+321:Remixes/Barà Barà Beré Beré (Dj PECHENOFF).mp3
+322:Remixes/Caliente Es Tu Amor (Extended Version).mp3
+323:Remixes/Crai.mp3
+324:Remixes/Dance Mix ufficiale inno Napoli Vincente di Barbato De Stefano.mp3
+325:Remixes/Danza Kuduro (English version).mp3
+326:Remixes/Danza Kuduro, Rabiosa & Rain Over Me Remix.mp3
+327:Remixes/Deep In Love (Kros Vs Simone Farina Rmx).mp3
+328:Remixes/Destination Calabria (DJ Tarantino Remix).mp3
+329:Remixes/Dragonforce - Through the fire and flames (Miche Remix).mp3
+330:Remixes/Eurovision.mp3
+331:Remixes/Evanescence Mix.mp3
+332:Remixes/Final Countdown (Disco Fries Bootleg).mp3
+333:Remixes/Friend (Cristian Marchi Remix).mp3
+334:Remixes/Get It Started (Extended Mix by Jump Smokers).mp3
+335:Remixes/Hello (Remix Tsieu Phang).mp3
+336:Remixes/Hit The Road Jack - Ray Charles.mp3
+337:Remixes/How Deep Is Your Love (Chris Lake Remix).mp3
+338:Remixes/How Deep Is Your Love (David Gravell Remix).mp3
+339:Remixes/If Titanium Wakes Me Up (Run Art Mashup).mp3
+340:Remixes/Intoxicated Barbie Girl (Rob & Chris Bootleg).mp3
+341:Remixes/IperMegaMix.mp3
+342:Remixes/Lady Gaga Alejandro (remix).mp3
+343:Remixes/Let The Sun Shine.mp3
+344:Remixes/Limbo (Dvj Jotha Remix).mp3
+345:Remixes/Loca Electro Remix.mp3
+346:Remixes/MegaMix 1.0.mp3
+347:Remixes/MegaMix 1.5.mp3
+348:Remixes/MegaMix 1.7.mp3
+349:Remixes/MegaMix 10.0.mp3
+350:Remixes/MegaMix 10.5.mp3
+351:Remixes/MegaMix 2.0.mp3
+352:Remixes/MegaMix 3.0.m4a
+353:Remixes/MegaMix 4.0.mp3
+354:Remixes/MegaMix 5.0.mp3
+355:Remixes/MegaMix 6.0.mp3
+356:Remixes/MegaMix 7.0.mp3
+357:Remixes/MegaMix 8.0.mp3
+358:Remixes/MegaMix 8.5.mp3
+359:Remixes/MegaMix 9.0.mp3
+360:Remixes/MegaMix Base 1.mp3
+361:Remixes/MegaMix Derivata Prima.mp3
+362:Remixes/MegaMix Nuovo.mp3
+363:Remixes/Mi Mi Mi (Extended Club Remix).mp3
+364:Remixes/Miracle Remix.mp3
+365:Remixes/Mr Saxobeat Vs. A far l'amore.mp3
+366:Remixes/Musica (Deepside Deejays Remix).mp3
+367:Remixes/Musica (Dj Elly Remix).mp3
+368:Remixes/No Stress (Rudeejay & Andry J vs Street Housers 2K16 Mix).mp3
+369:Remixes/On the Floor, Tonight Lambada.mp3
+370:Remixes/Pio Psila (Darkon's Summer Edition).mp3
+371:Remixes/Pio Psila (DJ BARDOPOULOS REMIX).mp3
+372:Remixes/Rain Over Me (Mega Mashup 2011).mp3
+373:Remixes/Red Hot Chili Peppers - Snow (Hey Oh) remix.mp3
+374:Remixes/Relax (DJ Antonio Remix).mp3
+375:Remixes/Rock This Party 2015 (Paolo Ortelli & Luke Degree Remix).mp3
+376:Remixes/Rondo Alla Turka Techno Remix (Mozart Cover).mp3
+377:Remixes/Shakira - Waka Waka Remix.mp3
+378:Remixes/Shakira - Waka Waka Remixed.mp3
+379:Remixes/Shakira Feat. T-Pain She Wolf - Official Remix.mp3
+380:Remixes/Shut Up (Dj Samoylov & Maxtal Remix 2010).mp3
+381:Remixes/Suavemente (Basslouder Bootleg Mix).mp3
+382:Remixes/Tangled Up (Lokee Remix).mp3
+383:Remixes/Te Deum - Eurovisione theme REMIX.mp3
+384:Remixes/This Is Love (Charles Le Freak Remix) HD.mp3
+385:Remixes/Time (Uplifting Trance Remix).mp3
+386:Remixes/Toccata and Fugue Remix.mp3
+387:Remixes/Waves of Luv (in Alto Mare) (Jamie Lewis Darkroom Mix).mp3
+388:Remixes/Wedding March REMIX.mp3
+389:Remixes/What is Love (Klaas Club Mix).mp3
+390:Remixes/01 2012 (If The World Would End) (Club Mix).mp3
+391:Remixes/Mama Ljuba 2012 (Paul Johns Remix).mp3
+392:Remixes/Canon Remix.mp3
+393:Remixes/Il Tuo Popolo è In Cammino Remix.mp3
+394:Remixes/The Children Of Piraeus (Ta Pedia Tou Pirea) feat. Katerina - Original Mix (Greek Version).mp3
+395:Remixes/Get It Started (Extended Intro).mp3
+396:Remixes/Imaginary (Alan Farias Remix).mp3
+397:Remixes/I Know We Scream Gangnam Style (ft. Will.I.Am, Britney Spears, Pitbull, LMFAO & PSY).mp3
+398:Remixes/Dragon Ball GT.mp3
+399:Remixes/She Wolf (Falling To Pieces) Feat. Sia (Extended).mp3
+400:Remixes/01 Sinéad - Benno de Goeij Remix.mp3
+401:Remixes/Snow (Hey Ho) (Gordon & Doyle Bootleg Mix).mp3
+402:Remixes/Die Young (Martin & Souza Club Mix).mp3
+403:Remixes/08 All My People (Dj Neytron Remix).mp3
+404:Strunzat/HOTEL CALIFORNIA - TONGO (ESTRENO MUNDIAL 2017)PARODIA.mp3
+405:Strunzat/La Mooseca Toujours - Francesco Cesco (Enrico Papi Remix).mp3
+406:Strunzat/Numb-Tongo (estreno a nivel mundial 2017) Parodia.mp3
+407:Strunzat/SOFIA MOOSECA (FRANCESCO CESCO REMIX).mp3
+408:The Dutch/R.E.M. - Shiny Happy People.mp3
+409:The Dutch/Big Man Down.mp3
+410:The Dutch/Brother Louie.mp3
+411:The Dutch/Drive.mp3
+412:The Dutch/Good Golly Miss Molly.mp3
+413:The Dutch/I Got You.mp3
+414:The Dutch/Inside the Fire.mp3
+415:The Dutch/It's Raining Again.mp3
+416:The Dutch/Lonely Day.mp3
+417:The Dutch/More Than A Feeling.mp3
+418:The Dutch/Show Me How To Live.mp3
+419:The Dutch/Somebody To Love.mp3
+420:The Dutch/The Broken.mp3
+421:The Dutch/When The Worlds Collide.mp3
+422:The Dutch/You Never Can Tell.mp3
+423:ThePianoGuys/What Makes You Beautiful.mp3
+424:ThePianoGuys/Cello Wars (Star Wars Parody) Lightsaber Duel.mp3
+425:ThePianoGuys/Harry Potter Theme - Incredible Piano Solo of Jarrod Radnich.mp3
+426:ThePianoGuys/Moonlight Sonata.mp3
+427:ThePianoGuys/More than Words (Extreme) Piano_Cello_Vocal Cover feat. J Rice.mp3
+428:ThePianoGuys/Paradise (Peponi) African Style (Coldplay Piano&Cello Cover).mp3
+429:ThePianoGuys/Pirates of the Caribbean - Incredible Piano Solo of Jarrod Radnich Filmed.mp3
+430:ThePianoGuys/Rockelbel's Canon (Pachelbel's Canon in D) - 4 Cellos.mp3
+431:ThePianoGuys/Somewhere Over The Rainbow.mp3
+432:ThePianoGuys/The Cello Song - (Bach is back with 7 more cellos).mp3
+433:ThePianoGuys/Titanium (David Guetta ft. Sia - Classical Cover - No Vocals).mp3
+434:ThePianoGuys/Titanium (David Guetta ft. Sia - Classical Cover).mp3
+435:ThePianoGuys/Without You by David Guetta ft. Usher (Piano & Cello Cover).mp3
+436:Trance Favs/A Light Inside (ReOrder Remix).mp3
+437:Trance Favs/All I Need (Progressive Mix).mp3
+438:Trance Favs/Angel Fly (Original Mix).mp3
+439:Trance Favs/Bliss (Original Mix).mp3
+440:Trance Favs/Dreams Come True (Original Mix) [ASOT 703].mp3
+441:Trance Favs/Eye 2 Eye [FSOE350 Anthem] (Original Mix).mp3
+442:Trance Favs/In Your Dreams (Original Mix).mp3
+443:Trance Favs/Leviticus (Original Mix).mp3
+444:Trance Favs/Louder (Ben Nicky Remix).mp3
+445:Trance Favs/Magic Light (Original Mix).mp3
+446:Trance Favs/Now I See (Club Mix).mp3
+447:Trance Favs/Panta Rhei (Original Mix).mp3
+448:Trance Favs/Take Me Away (2015 Mix).mp3
+449:Trance Favs/The Most Important Thing (Original Mix).mp3
+450:Trance Favs/The Reason (Club Mix).mp3
+451:Trance Favs/World of Sin (Original Mix).mp3
+452:Trance Favs/Worlds Which Break Us (Orchestral Mix).mp3
+453:Whithin Temptation Favs/Mother Earth.mp3
+454:Whithin Temptation Favs/Memories (Black Symphony Live).mp3
+455:Whithin Temptation Favs/Mother Earth (Black Symphony Live).mp3
+456:Whithin Temptation Favs/Paradise (What About Us_).mp3
+457:Whithin Temptation Favs/Stand My Ground (Black Symphony Live).mp3
+458:Whithin Temptation Favs/Whole World Is Whatching.mp3
+459:Whithin Temptation Favs/Ice Queen.mp3
+460:Whithin Temptation Favs/Shot in the dark.mp3
+461:Whithin Temptation Favs/What Have You Done (feat. Keith Caputo).mp3
+462:Whithin Temptation Favs/In the middle of the night.mp3
+463:Whithin Temptation Favs/Jillian (I'd Give My Heart).mp3
+464:Whithin Temptation Favs/Our Solemn Hour.mp3
+465:Whithin Temptation Favs/Stand My Ground.mp3
+466:Whithin Temptation Favs/Angels.mp3
+467:Whithin Temptation Favs/Memories.mp3
+468:Whithin Temptation Favs/The Truth Beneath The Rose.mp3
+469:Whithin Temptation Favs/A demon_s fate.mp3
+470:Whithin Temptation Favs/A Dangerous Mind.mp3
+471:Россия/'We Are the Army of the People' Russian Army Choir, Red Square Victory Parade 9 May 2015-57oPJwUHo7s.mp4
+472:Россия/Farewell of Slavianka - Dina Garipova & Alexandrov Ensemble (2013)-z1Rs7Yw3vUc.mp3
+473:Россия/Katyusha - Marina Devyatova & Katya Ryabova (MULTI SUBTITLES)-ODqmB5-WRQc.mp3
+474:Россия/Katyusha (Катюша) - Aleksandr Marshal & Valeria Kurnushkina (2013)-DtT62uw2LGE.mp3
+475:Россия/Red Army Choir - Korobeiniki.-umEDct4BoGc.mp3
+476:Россия/Red Army Choir - Smuglianka.-n7hHlh2IusY.mp3
+477:Россия/Red Army Choir - Smuglianka.-n7hHlh2IusY.ogg
+478:Россия/Red Army Choir Katusha-MLg83QMmlGs.mp3
+479:Россия/Red Army Choir- We Are the Army of the People-tMWyuXFBNr0.mp3
+480:Россия/We Are The Army Of the People+Farewell of Slavianka (2017 Moscow Victory Parade)-nnCpC6EDn8w.mp4
+481:Россия/When we were at war - Kuban Cossack Choir (2014)-yeyDfVjq6sw.mp3
+482:Россия/Когда мы были на войне - Юлия Матюкина и Кубанский казачий хор-VWei6FHB7yY.mp3
+483:Россия/Проща́ние славя́нки (Farewell of Slavianka) with English subtitles-Yjq_HZg9YmY.mp3
+playlist_end

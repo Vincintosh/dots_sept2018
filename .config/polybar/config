@@ -1,0 +1,169 @@
+[colors]
+fg = #222222
+fgdis = #696969
+bgtime = #dba0bb
+bgcoreinfo = #92aee8
+bgwlan = #b3c9af
+bgi3 = #a78371
+bgi3f = #c9a593
+bgdis = #cec388
+bgtray = #b7c993
+alert = #f99157
+tp = #00000000
+
+[bar/top]
+monitor = HDMI-1
+monitor-fallback = eDP-1
+width = 100%
+height = 30
+
+background = ${colors.tp}
+foreground = ${colors.fg}
+
+bottom = false
+
+border-top-color = ${colors.tp}
+border-left-color = ${colors.tp}
+border-right-color = ${colors.tp}
+border-top-size = 5
+border-left-size = 10
+border-right-size = 15
+
+module-margin-left = 0
+module-margin-right = 0
+padding-left = 0
+padding-right = 0
+
+font-0 = Roboto Mono:pixelsize=10;1
+font-1 = RobotoMono Nerd Font:pixelsize=10;1
+font-2 = Font Awesome 5 Free:pixelsize=10;1
+
+modules-left = time volume battery wlan
+modules-right = i3 dis
+
+wm-restack = i3
+
+tray-position = right
+tray-background = ${colors.bgtray}
+
+[module/time]
+type = internal/date
+interval = 1
+
+time = "%d-%m %H:%M "
+format-prefix = "  "
+
+format-background = ${colors.bgtime}
+
+label = %time%
+format-margin = 1
+
+
+[module/volume]
+type = internal/pulseaudio
+
+format-volume = <ramp-volume> <label-volume>
+format-muted = <label-muted>
+
+ramp-volume-0 = " "
+ramp-volume-1 = " "
+ramp-volume-2 = " "
+
+label-volume = "%percentage%% "
+label-muted = "  %percentage%% "
+label-muted-foreground = ${colors.fgdis}
+
+format-volume-background = ${colors.bgcoreinfo}
+format-muted-background = ${colors.bgcoreinfo}
+
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP0
+full-at = 99
+
+format-full = <label-full>
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+
+ramp-capacity-0 = " "
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
+
+animation-charging-0 = "  "
+animation-charging-1 = "  "
+animation-charging-2 = "  "
+animation-charging-3 = "  "
+animation-charging-4 = "  "
+animation-charging-framerate = 750
+
+label-full = " ﮣ  %percentage%% "
+label-charging = "%percentage%% "
+label-discharging = "%percentage%% "
+
+format-charging-background = ${colors.bgcoreinfo}
+format-discharging-background = ${colors.bgcoreinfo}
+format-full-background = ${colors.bgcoreinfo}
+
+
+[module/wlan]
+type = internal/network
+interface = wlp2s0
+interval = 3.0
+
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+
+label-connected = "  %local_ip% "
+label-disconnected = "  "
+label-disconnected-foreground = #
+
+format-connected-background = ${colors.bgcoreinfo}
+format-disconnected-background = ${colors.bgcoreinfo}
+
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+pin-workspaces=true
+
+ws-icon-0 = 1;1
+ws-icon-1 = 2;2
+ws-icon-2 = 3;3
+ws-icon-3 = 4;4
+ws-icon-4 = 5;5
+ws-icon-5 = 6;6
+ws-icon-6 = 7;7
+ws-icon-7 = 8;8
+ws-icon-8 = 9;9
+ws-icon-9 = 10;0
+ws-icon-default = +
+
+label-mode-padding = 0
+label-mode-foreground = ${colors.fg}
+label-mode-background = ${colors.alert}
+
+label-focused = %icon%
+label-focused-background = ${colors.bgi3f}
+label-focused-padding = 2
+
+label-unfocused = %icon%
+label-unfocused-background = ${colors.bgi3}
+label-unfocused-padding = 2
+
+label-urgent = %icon%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+format-margin = 1
+
+[module/dis]
+type = custom/text
+
+content = "  "
+content-background = ${colors.bgdis}
+
+click-left = ~/.screenlayout/screenlayoutchange.sh
