@@ -6,13 +6,21 @@ I bought a new ultrawide external display, so I thought it would be worth renewi
 ![Screenshot](screenshots/neofetch.png)
 
 **Window Manager**: i3-gaps
+
 **Bar**: Polybar
+
 **Shell**: Bash
+
 **Terminal**: URxvt
+
 **Notification Daemon**: twmn
+
 **Compositor**: Compton
+
 **Menu**: Rofi
+
 **Theme**: Mint-Y
+
 
 I will use this page to summerize how my desktop setup works. Jump to *TL;DR* if you just want basic information on what is in this repository.
 
