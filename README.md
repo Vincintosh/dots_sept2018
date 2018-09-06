@@ -22,7 +22,7 @@ I bought a new ultrawide external display, so I thought it would be worth renewi
 **Theme**: Mint-Y
 
 
-I will use this page to summerize how my desktop setup works. Jump to *TL;DR* if you just want basic information on what is in this repository.
+I will use this page to summarize how my desktop setup works. Jump to *TL;DR* if you just want basic information on what is in this repository.
 
 ## Display management
 
