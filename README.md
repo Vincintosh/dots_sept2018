@@ -1,6 +1,7 @@
 # dots (September 2018)
 dotfiles for my Arch + i3-gaps configuration (September 2018)
-I bought a ultrawide external display, so I thought it would be worth renewing my desktop interface setup
+
+I bought a new ultrawide external display, so I thought it would be worth renewing my desktop interface setup
 
 ![Screenshot](screenshots/neofetch.png)
 
@@ -95,4 +96,12 @@ Other software I use on a daily basis
 
 This is a place to reunite all of my configuration files needed for my desktop setup. I use *i3-gaps* and *Polybar*, with *Rofi* as my menu sistem. I have a dual monitor setup and I have configured to use only the external display when it is connected or revert back to the laptop screen when the external one isn't available. Workspaces 1-8 are on the external display and 9-10 on the laptop screen by default. *i3-gaps* is a tiling window manager that allows for configurable gaps between tiled windows and is mainly keyboard controlled. I have different modes to modify the gaps on the fly and even resize windows with my keyboard. Different keybindings allow for different applications to be executed and you will find everything I have set up in the i3 config file. *Polybar* is configured with a transparent background and every single module has its own background color: it tries to imitate *Material Design* applications but with a touch of Unix sexiness using the *Roboto Mono* font (and *Font Awesome* for icons).
 
+
+
 ## See this setup in action
+
++ [Reddit](https://www.reddit.com/r/unixporn/comments/9dm3fl/i3gaps_polybar_i_bought_an_ultrawide_monitor_it/)
+
++ Screenshots: [imgur](https://imgur.com/a/6MnnKYB)
+
++ [YouTube]
