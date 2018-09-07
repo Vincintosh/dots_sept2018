@@ -111,7 +111,7 @@ This is a place to reunite all of my configuration files needed for my desktop s
 
 ## See this setup in action
 
-+ [Reddit](https://v.redd.it/jgtljk9h2pk11)
++ [Reddit](https://www.reddit.com/r/unixporn/comments/9dnvt2/i3gaps_i_bought_an_ultrawide_monitor_it_needed_a/)
 
 + Screenshots: [imgur](https://imgur.com/a/6MnnKYB)
 
