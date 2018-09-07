@@ -41,7 +41,8 @@ Disconnecting the external display while the laptop display is disabled results 
 These functions are assigned to specific "modes" which you can trigger with keyboard shortcuts.
 Once entered *"resize"* mode, you can resize windows with arrows or vim bindings.
 *i3-gaps* is a fork of *i3-wm* that allows **gaps** between tiled windows. You can modify on the fly the value of said gaps. Once entered *"gaps"* mode, you can choose whether to modify outer or inner gaps and then it enters specific "sub-modes" (I guess you can call them so) where you can increase/decrease/reset the gaps. There's also a key binding to reset the gaps to the initial settings.
-resembles pretty
+
+
 ### Other functions
 Volume and media controlling functions are included for both the laptop (that has media keys) and external (that uses F1-12 keys) keyboards.
 There are also key combinations for killing/restarting polybar manually, upgrade the system (using *pacman*), changing the wallpaper (runs *feh* on my wallpapers directory and makes it choose an image file randomly) emptying the trash (uses a script, that also plays a sound when done) and asking for battery remaining time (using another script that sends a notification with "power cord connected" if you are charging the battery or with the estimated remaining time if you are discharging the battery).
