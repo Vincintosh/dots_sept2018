@@ -102,6 +102,8 @@ Other software I use on a daily basis
 + **(Neo)mutt?**: don't know if I'm comfortable for terminal eMail handling honestly, but *Mutt/Neomutt* are actually pretty great pieces of software and I would like to at least give them a try.
 
 
++ **Customize URxvt colours**: I'm still using the default terminal colours because I'm used to them. I suould try a different colour scheme at some point.
+
 
 ## TL;DR
 
